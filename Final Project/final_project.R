@@ -8,7 +8,8 @@ library(ggthemes)
 
 #Please make sure that the "read.csv" matches the directory where the data set is stored on your computer. 
 
-non_voter_data <- read.csv("Data/nonvoters_data-csv.csv")
+non_voter_data <- read.csv(url("https://raw.githubusercontent.com/Digital-Methods-HASS/au539080_Andreas_Viftrup/main/Final%20Project/Data/nonvoters_data-csv.csv"))
+
 View(non_voter_data)
 
 #Overview over respondents. 
